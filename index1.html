@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="page">
+
+    
+    <div class="flex1">
+        <div class="logo"><img src="clock_logo.png"></div>
+        <div class="day">
+           <div class="c11">
+            <div class="r1">
+                <div><img src="sun.png"></div>
+                <div class="tx1"><div>Set wake up time</div></div>
+            </div>
+            <div class="l1"></div>
+            <div class="r2">
+                <div><img src="spoons.png"></div>
+                <div class="tx2"><div>Set lunch time</div></div>
+            </div>
+            <div class="l2"></div>
+            <div class="r3">
+                <div><img src="zzz.png"></div>
+                <div class="tx3"><div>Set nap time</div></div>
+               
+            </div>
+            <div class="l3"></div>
+            <div class="r4">
+                <div><img src="sun.png"></div>
+                <div class="tx4"><div>Set night time</div></div>
+                
+            </div>
+           </div>
+           <div class="c22">
+            <div><select id="s1"><option value="1">8 AM - 9 AM</option>
+                                 <option value="2">9 AM - 10 AM</option>
+                                 <option value="3">10 AM - 11 AM</option>
+                                 <option value="4">11 AM - 12 PM</option></select></div>
+            <div><select id="s2"><option value="1">12 PM - 1 PM</option>
+                                 <option value="2">1 PM - 2PM</option>
+                                 <option value="3">2PM - 3PM</option>
+                                 <option value="4">3PM - 4PM</option></select></div>
+            <div><select id="s3"><option value="1">4 PM - 5 PM</option>
+                                 <option value="2">5 PM - 6PM</option>
+                                 <option value="3">6PM - 7PM</option>
+                                 <option value="4">7PM - 8PM</option></select></div>
+            <div><select name="time" id="s4"><option value="1">8 PM - 9 PM</option>
+                                     <option value="2">9 PM - 10PM</option>
+                                     <option value="3">10PM - 11PM</option>
+                                     <option value="4">11PM - 12AM</option></select></div>
+           </div>
+        </div>
+        <div class="wish"><div id="wish1">GOOD MORNING!! WAKE UP !!</div></div>
+        <div class="c1">
+            <input type = "button" onclick = "myfunc()" value = "Set Alarm">
+            <div class="timing"><ul type="none"><li>Wake Up Time:<span id="mg"> 10 AM - 11 AM</span></li>
+                                                <li>Lunch Time:<span id="af">12 PM - 1 PM</span> </li>
+                                                <li>Nap Time:<span id="nap">4 PM - 5 PM</span></li>
+                                                <li>Night Time:<span id="nyt">8 PM-9 AM</span></li>
+                                </ul>
+            </div>  
+        </div> 
+     </div>
+    
+        
+     
+
+    
+    <div class="flex2">
+    <div class="time">
+         <div>TIME</div>
+         <div class="t1"><div><span id="HH">HH</span><br>hours</div></div>:
+         <div class="t2"><div><span id="MM">MM</span><br>mins</div></div>:
+         <div class="t3"><div><span id="SS">SS</span><br>secs</div></div>
+         <div class="t4"><div><span id="ampm">ampm</span></div></div>
+    </div>
+    <div class="food"><div id="food1">GRAB SOME HEALTHY BREAKFAST!!!</div></div>
+    <div id="image"></div> 
+    </div>
+    
+    
+
+
+</div>
+
+<div class="bg1"></div>
+<div class="bg2"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
